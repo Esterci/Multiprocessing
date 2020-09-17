@@ -8,6 +8,7 @@ def do_something():
     time.sleep(1)
     print('Done Sleeping...')
 
+p1 = multiprocessing.Process(target=do_something)
 
 finish = time.perf_counter()
 
